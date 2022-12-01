@@ -1,0 +1,31 @@
+{
+    "name": "trabajo-mica",
+    "version": "1.0.0",
+    "description": "carpeta de node.",
+    "main": "index.html",
+    "scripts": {
+      "test": "hola mundo",
+      "build-css": "node-sass --include-path scss /assest/css/style.scss /assest/css/style.css",
+      "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Micaela2108/trabajo-mica.git"
+    },
+    "keywords": [
+      "node",
+      "sass",
+      "class"
+    ],
+    "author": "ASC/PUC Micaela Cabrera",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Micaela2108/trabajo-mica/issues"
+    },
+    "homepage": "https://github.com/Micaela2108/trabajo-mica#readme",
+    "devDependencies": {
+      "node-sass": "^8.0.0",
+      "nodemon": "^2.0.20"
+    }
+  }
+  
